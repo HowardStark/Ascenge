@@ -1,6 +1,6 @@
 # Ascenge
 ---
-###--- About ---
+###About
 
 ####What is Ascenge?
 Ascenge is a 2D ASCII game engine built in Ruby. It's designed to be simple to use but with lots of expandability.
@@ -8,7 +8,7 @@ Ascenge is a 2D ASCII game engine built in Ruby. It's designed to be simple to u
 ####Where can I get it?
 Ascenge is currently a work-in-progress. For more information, you can check out the to-do list for version 1.0
 
-###--- In depth ---
+###In depth
 
 ####World Architecture
 Ascenge's world architecture is quite simple.
