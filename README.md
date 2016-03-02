@@ -25,7 +25,7 @@ The World is the main class that handles and starts everything. The World also h
 
 The World, on startup, creates a Chunk. The Chunk is actually just a way to render what the player can currently see. While the world manages the UI, the Chunk displays what is currently seen on-screen.
 
-The Level is, as the name would suggest, a level in the game. The current level could be compared to a Z coordinate, and fully implementing the third dimension is an item on the to-do list. 
+The Level is, as the name would suggest, a level in the game. The current level could be compared to a Z coordinate, and fully implementing the third dimension is an item on the to-do list.
 
 The Level doesn't directly handle the tiles, though. Instead, that is left up to Areas. Areas can represent anything, from a dungeon room to a small closet. They are just a small collection of tiles. This layer is for ease of generation for world events.
 
@@ -37,12 +37,12 @@ The final layer is the Tile. The tile is a collection of an ASCII character and 
 
  - Tile
      - Implement tile effects
-     - Interactive tiles 
+     - Interactive tiles
      - Uniquity
      - Coloring
  - Entity
      - Work on NPCs
-     - Add Questing 
+     - Add Questing
  - Chunk
      - Render only what's in view
      - Shift chunk over when moving out-of-view
@@ -51,8 +51,7 @@ The final layer is the Tile. The tile is a collection of an ASCII character and 
      - Add action navigator
      - (Idea) Dialog in action navigator screen section
      - Coloring
+     - Add main menu
  - Abstraction
-     - Re-work engine to make it more 'engine-y' 
+     - Re-work engine to make it more 'engine-y'
      - ITEMS!
-
-
