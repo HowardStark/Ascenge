@@ -1,17 +1,10 @@
 # Ascenge
----
-# About
 
-## What is Ascenge?
-Ascenge is a 2D ASCII game engine built in Ruby. It's designed to be simple to use but with lots of expandability.
-
-## Where can I get it?
-Ascenge is currently a work-in-progress. For more information, you can check out the to-do list for version 1.0
-
-# In depth
+Ascenge is a 2D ASCII game engine built in Ruby. It's designed to be simple to use for beginners, with the expandability for more advanced uses. It's currently a work-in-progress, and there aren't any games currently built on Ascenge.
 
 ## World Architecture
-Ascenge's world architecture is quite simple.
+
+This is the hierarchy for a world in Ascenge thus far. (This will change. It's been a while since I thought of all this)
 ```
     World
     ├── Chunk
@@ -21,7 +14,6 @@ Ascenge's world architecture is quite simple.
         └── Entity
 ```
 The World is the main class that handles and starts everything. The World also handles the UI, although that is subject to change later.
-
 
 The World, on startup, creates a Chunk. The Chunk is actually just a way to render what the player can currently see. While the world manages the UI, the Chunk displays what is currently seen on-screen.
 
