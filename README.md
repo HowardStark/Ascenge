@@ -1,25 +1,25 @@
 # Ascenge
 ---
-###About
+# About
 
-####What is Ascenge?
+## What is Ascenge?
 Ascenge is a 2D ASCII game engine built in Ruby. It's designed to be simple to use but with lots of expandability.
 
-####Where can I get it?
+## Where can I get it?
 Ascenge is currently a work-in-progress. For more information, you can check out the to-do list for version 1.0
 
-###In depth
+# In depth
 
-####World Architecture
+## World Architecture
 Ascenge's world architecture is quite simple.
-
+```
     World
     ├── Chunk
     └── Level
         ├── Area
         │   └── Tile
         └── Entity
-
+```
 The World is the main class that handles and starts everything. The World also handles the UI, although that is subject to change later.
 
 
@@ -33,7 +33,7 @@ The Level does handle all the entities in the level. If an area or a room has a 
 
 The final layer is the Tile. The tile is a collection of an ASCII character and a few other properties. The basic properties are `traversable`, their character, and effects. Interactive tiles are on the to-do list.
 
-####Next Steps/TODO
+# Next Steps (TODO)
 
  - Tile
      - Implement tile effects
