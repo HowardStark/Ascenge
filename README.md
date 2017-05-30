@@ -25,7 +25,7 @@ The Level does handle all the entities in the level. If an area or a room has a 
 
 The final layer is the Tile. The tile is a collection of an ASCII character and a few other properties. The basic properties are `traversable`, their character, and effects. Interactive tiles are on the to-do list.
 
-# Next Steps (TODO)
+## Next Steps (TODO)
 
  - Tile
      - Implement tile effects
